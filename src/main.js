@@ -1,2 +1,2 @@
-import "./js/unsplesh-api"
+import "./js/gallery"
 

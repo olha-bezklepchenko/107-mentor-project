@@ -1,6 +1,6 @@
 import axios from 'axios';
 axios.defaults.baseURL = 'https://api.unsplash.com';
-async function getPhotos(query) {
+export async function getPhotos(query) {
   const API_KEY = 'LxvKVGJqiSe6NcEVZOaLXC-f2JIIWZaq_o0WrF8mwJc';
 
   try {
@@ -19,4 +19,4 @@ async function getPhotos(query) {
   }
 }
 
-getPhotos('cat').then(res => console.log(res));
+
